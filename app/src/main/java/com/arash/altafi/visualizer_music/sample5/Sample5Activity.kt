@@ -39,7 +39,7 @@ class Sample5Activity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         startPlayingAudio(
-            "https://dls.music-fa.com/tagdl/1401/Abozar%20Roohi%20-%20Salam%20Farmande%20(320).mp3",
+            "https://irsv.upmusics.com/Downloads/Musics/Mohsen%20Yeganeh%20-%20Behet%20Ghol%20Midam%20(320).mp3",
         )
     }
 
