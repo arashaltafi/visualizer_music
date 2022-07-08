@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="18dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/single_entrance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_entrance"
+        android:gravity="center"
+        android:text="SingleVisualizeView"
+        android:textColor="#FFFFFF" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/reflect_entrance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_entrance"
+        android:gravity="center"
+        android:text="ReflectVisualizeView"
+        android:textColor="#FFFFFF" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/circle_entrance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_entrance"
+        android:gravity="center"
+        android:text="CircleVisualizeView"
+        android:textColor="#FFFFFF" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/wave_entrance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_entrance"
+        android:gravity="center"
+        android:text="WaveVisualizeView"
+        android:textColor="#FFFFFF" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/net_entrance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_entrance"
+        android:gravity="center"
+        android:text="NetVisualizeView"
+        android:textColor="#FFFFFF" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/grain_entrance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_entrance"
+        android:gravity="center"
+        android:text="GrainVisualizeView"
+        android:textColor="#FFFFFF" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

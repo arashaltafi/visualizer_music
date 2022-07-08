@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtVisualizer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Visualizer Samples"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtVisualizer">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSample1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sample 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSample2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sample 2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSample3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sample 3" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSample4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sample 4" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSample5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sample 5" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSample6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sample 6" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSample7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sample 7" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
