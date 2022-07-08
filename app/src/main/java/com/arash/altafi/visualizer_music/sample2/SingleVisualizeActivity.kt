@@ -18,7 +18,7 @@ class SingleVisualizeActivity : AppCompatActivity() {
     }
 
     private fun init() {
-        binding.audioVisualizeView.doPlay(R.raw.sample2)
+        binding.audioVisualizeView.doPlay(R.raw.sample)
 
     }
 

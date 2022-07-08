@@ -51,7 +51,7 @@ class Sample1Activity : AppCompatActivity() {
     private var mVisualizerManager: NierVisualizerManager? = null
     private val mPlayer by lazy {
         MediaPlayer().apply {
-            resources.openRawResourceFd(R.raw.sample1).apply {
+            resources.openRawResourceFd(R.raw.sample).apply {
                 setDataSource(fileDescriptor, startOffset, length)
             }
         }

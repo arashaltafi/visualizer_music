@@ -25,7 +25,7 @@ class BlobActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        startPlayingAudio(R.raw.sample5)
+        startPlayingAudio(R.raw.sample)
     }
 
     override fun onStop() {
