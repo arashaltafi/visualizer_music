@@ -11,6 +11,7 @@ import com.arash.altafi.visualizer_music.sample4.Sample4Activity
 import com.arash.altafi.visualizer_music.sample5.Sample5Activity
 import com.arash.altafi.visualizer_music.sample6.Sample6Activity
 import com.arash.altafi.visualizer_music.sample7.Sample7Activity
+import com.arash.altafi.visualizer_music.sample8.Sample8Activity
 
 class MainActivity : AppCompatActivity() {
 
@@ -46,6 +47,9 @@ class MainActivity : AppCompatActivity() {
             }
             btnSample7.setOnClickListener {
                 startActivity(Intent(this@MainActivity, Sample7Activity::class.java))
+            }
+            btnSample8.setOnClickListener {
+                startActivity(Intent(this@MainActivity, Sample8Activity::class.java))
             }
         }
     }

@@ -19,6 +19,9 @@
         android:theme="@style/Theme.Visualizer_music"
         tools:targetApi="31">
         <activity
+            android:name=".sample8.Sample8Activity"
+            android:exported="false" />
+        <activity
             android:name=".sample7.Sample7Activity"
             android:exported="false" />
         <activity
